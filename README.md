@@ -3,7 +3,7 @@ Warp Development Assessment
 
 ## Below are the steps to get this project up and running:
 
-1. Clone this repository to your device.
+1. Clone this repository (master branch) to your device.
 
 2. Once this is done, you can open the project in Visual Studio.
 
