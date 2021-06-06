@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<br />
+<h4>Create Person</h4>
+<p>
+    Click on <b>Create Person</b> to open webform. <br />
+    This webform, when submitted, stores the data in a database then displays the data back to the user in a neat format.
+</p><br />
+
+<h4>View Person Details</h4>
+<p>
+    To view a specific Person's details, you can go to url <b>/Persons/Details/{id}</b> where id is the id of the Person you are looking for. It shows all their information except their password.
+</p><br />
+
+<h4>Edit Person Details</h4>
+<p>
+    To edit a specific Person's details, you can go to url <b>/Persons/Edit/{id}</b> where id is the id of the Person you are looking for. It shows all their information and upon submition, will update the Person's information.
+</p><br />
